@@ -1,14 +1,10 @@
-
 body{
     background-color: #345;
     color: #ccc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16pt;
 }
-div{
-    padding: 1em;
-    margin: 1em;
-}
+
 button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16pt;
@@ -16,20 +12,26 @@ button{
     color: #ccc;
     border-radius: 2px;
     width: 100%;
-
+    border: 1px solid;
 }
+
 button:hover{
     background-color: #567;
     cursor: pointer;
-
+}
+button:active{
+    background-color: #578;
+    cursor: pointer;
 }
 
 textarea{
     font-family: monospace;
     font-size: 16pt;
- 
-} 
-#result{
-    white-space: pre;
+    width: 100%;
+    height: 3em;
+}
 
+div{
+    padding: 1em;
+    margin: 1em;
 }
